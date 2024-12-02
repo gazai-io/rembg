@@ -17,7 +17,7 @@ install_requires = [
     "opencv-python-headless",
     "pillow",
     "pooch",
-    "pymatting",
+    "pymatting @ git+https://github.com/gazai-io/pymatting.git@feat/remove-numba-for-serverless",
     "scikit-image",
     "scipy",
     "tqdm",
